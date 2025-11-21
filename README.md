@@ -1,4 +1,4 @@
-# My Project Title
+# Real-Time System Conveyor Belt Package Detector
 
 Welcome to my GitHub Pages site!  
 Below is a brief demo video showcasing the project.
