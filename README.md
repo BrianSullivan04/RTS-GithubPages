@@ -11,7 +11,7 @@ Below is a brief demo video showcasing the project.
 
 <!-- Replace with your YouTube video ID -->
 <iframe width="560" height="315" 
-        src="https://www.youtube.com/watch?v=mM68GNQJoAE" 
+        src="https://www.youtube.com/watch?v=R5v5lfN7zVE"
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
@@ -23,20 +23,4 @@ Below is a brief demo video showcasing the project.
 
 ## 📄 Description
 
-This video demonstrates the main features of the project, including:
-
-- What the viewer should notice  
-- What the project accomplishes  
-- Any interesting technical or design details  
-
-You can update this section with more details as the project evolves.
-
----
-
-## 🌐 View the Live Site
-
-Visit the deployed GitHub Pages version here:  
-👉 **https://USERNAME.github.io/REPOSITORY_NAME**
-
-Replace your username and repo name above.
-
+This project implements a real-time safety monitor for a conveyor system using the ESP32 and FreeRTOS. The system continuously measures distance with an ultrasonic sensor and listens for emergency-stop input through an ISR. Hard-deadline tasks ensure the conveyor halts within a guaranteed response window whenever an object or person enters the danger zone. Soft-deadline tasks handle non-critical features such as heartbeat signaling and serial output. The project demonstrates deterministic scheduling, interrupt-driven safety logic, and the practical integration of sensor processing in a real-time environment.
